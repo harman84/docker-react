@@ -5,4 +5,4 @@ services:
 before_install: docker build -t harman84/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run harman84/docker-rect npm run test -- --coverage
+  - docker run harman84/docker-react npm run test -- --coverage
